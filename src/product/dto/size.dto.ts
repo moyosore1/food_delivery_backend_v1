@@ -1,4 +1,4 @@
-import { IsNumber } from "class-validator/types/decorator/decorators";
+import { IsNumber } from "class-validator";
 
 export class SizeDto {
     @IsNumber()

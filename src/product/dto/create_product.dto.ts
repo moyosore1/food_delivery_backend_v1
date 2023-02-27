@@ -1,13 +1,14 @@
 import { Type } from "class-transformer";
-import { IsString } from "class-validator";
 import {
     IsDefined,
     IsNotEmpty,
     IsNotEmptyObject,
     IsNumber,
     IsObject,
+    IsString,
     ValidateNested,
-} from "class-validator/types/decorator/decorators";
+} from "class-validator";
+
 import { SizeDto } from "./size.dto";
 
 export class CreateProductDto {
@@ -23,5 +24,5 @@ export class CreateProductDto {
     @IsNotEmptyObject()
     @ValidateNested()
     @Type(() => SizeDto)
-    size!: SizeDto;
+    size: SizeDto;
 }
