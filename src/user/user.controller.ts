@@ -18,8 +18,7 @@ export class UserController {
             UserDto.password,
             UserDto.email,
         );
-        console.log(user);
-        console.log(UserDto.password);
+       
         return user;
     }
 

@@ -1,11 +1,14 @@
 import { NestFactory } from "@nestjs/core";
 import { AppModule } from "./app.module";
-import * as dotenv from "dotenv";
+import { ValidationPipe } from "@nestjs/common";
 
 async function bootstrap() {
-    // Load environment variables from .env file
-    dotenv.config();
     const app = await NestFactory.create(AppModule);
-    await app.listen(5000);
+    // whitelist removes all properties of a request’s body which are not in the DTO
+    // this property would allow us to transform properties, for instance, an integer to a string.
+    app.useGlobalPipes(
+        new ValidationPipe({ whitelist: true, transform: true }),
+    );
+    await app.listen(8000);
 }
 bootstrap();

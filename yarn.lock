@@ -1799,7 +1799,11 @@
 
 "@types/validator@^13.7.10":
   version "13.7.12"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/@types/validator/-/validator-13.7.12.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.7.12.tgz#a285379b432cc8d103b69d223cbb159a253cf2f7"
+>>>>>>> 75f7ddabc3c1af58817fdeb784542e716bf84892
   integrity sha512-YVtyAPqpefU+Mm/qqnOANW6IkqKpCSrarcyV269C8MA8Ux0dbkEuQwM/4CjL47kVEM2LgBef/ETfkH+c6+moFA==
 
 "@types/webidl-conversions@*":
@@ -4267,9 +4271,15 @@ levn@^0.4.1:
     type-check "~0.4.0"
 
 libphonenumber-js@^1.10.14:
+<<<<<<< HEAD
   version "1.10.21"
   resolved "https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.10.21.tgz"
   integrity sha512-/udZhx49av2r2gZR/+xXSrwcR8smX/sDNrVpOFrvW+CA26TfYTVZfwb3MIDvmwAYMLs7pXuJjZX0VxxGpqPhsA==
+=======
+  version "1.10.20"
+  resolved "https://registry.yarnpkg.com/libphonenumber-js/-/libphonenumber-js-1.10.20.tgz#03c310adf83381eeceb4bd6830442fd14e64964d"
+  integrity sha512-kQovlKNdLcVzerbTPmJ+Fx4R+7/pYXmPDIllHjg7IxL4X6MsMG7jaT5opfYrBok0uqkByVif//JUR8e11l/V7w==
+>>>>>>> 75f7ddabc3c1af58817fdeb784542e716bf84892
 
 lines-and-columns@^1.1.6:
   version "1.2.4"
@@ -5720,7 +5730,11 @@ v8-to-istanbul@^9.0.1:
 
 validator@^13.7.0:
   version "13.9.0"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/validator/-/validator-13.9.0.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.9.0.tgz#33e7b85b604f3bbce9bb1a05d5c3e22e1c2ff855"
+>>>>>>> 75f7ddabc3c1af58817fdeb784542e716bf84892
   integrity sha512-B+dGG8U3fdtM0/aNK4/X8CXq/EcxU2WPrPEkJGslb47qyHsxmbggTWK0yEA4qnYVNF+nxNlN88o14hIcPmSIEA==
 
 vary@^1, vary@~1.1.2:
